@@ -34,8 +34,8 @@ const Login = () => {
                 <p>New Here? <Link to="/register" className="text-decoration-underline text-info">Register</Link> </p>
               </div>
               <div className="text-center">
-              <button className="my-2 mx-auto btn btn-dark" type="submit" disabled="">
-                               <a href="https://themewagon.github.io/corona-free-dark-bootstrap-admin-template/">Login</a>
+              <button className="my-2 mx-auto btn btn-dark">
+                               <Link to="/dashboard">Login</Link>
               </button>
               </div>
             </form>

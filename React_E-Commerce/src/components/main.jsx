@@ -13,11 +13,11 @@ const Home = () => {
           />
           <div className="card-img-overlay d-flex align-items-center">
             <div className="container">
-              <h5 className="card-title fs-1 text fw-lighter">New Season Arrivals</h5>
+              <h2 className="card-title fs-1 text fw-lighter">Vendee</h2>
               <p className="card-text fs-5 d-none d-sm-block ">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+              Vendée E-Commerce is a premier online platform offering a diverse range of products, 
+              exceptional customer service, and seamless shopping experiences. 
+              Discover quality, affordability, and convenience with every click.
               </p>
             </div>
           </div>
