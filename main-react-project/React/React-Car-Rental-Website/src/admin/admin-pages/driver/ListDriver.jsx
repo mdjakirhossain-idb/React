@@ -1,6 +1,6 @@
-import { AdminSidebar } from '../../admin-components/AdminSidebar'
+import { AdminSidebar } from '../../admin-components/AdminSidebar';
 import axios from 'axios';
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 export const ListDriver = () => {
   const [items, setItems] = useState([]);
