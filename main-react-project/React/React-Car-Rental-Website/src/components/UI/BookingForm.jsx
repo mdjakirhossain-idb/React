@@ -9,17 +9,20 @@ const BookingForm = () => {
   return (
     <Form onSubmit={submitHandler}>
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
-        <input type="text" placeholder="First Name" />
+        <input type="text" placeholder="Name" />
       </FormGroup>
       <FormGroup className="booking__form d-inline-block ms-1 mb-4">
-        <input type="text" placeholder="Last Name" />
+        <input type="Number" placeholder="Phone Number" />
       </FormGroup>
 
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
         <input type="email" placeholder="Email" />
       </FormGroup>
+      <FormGroup className="booking__form d-inline-block me-4 mb-4">
+        <input type="text" placeholder="Car Model" />
+      </FormGroup>
       <FormGroup className="booking__form d-inline-block ms-1 mb-4">
-        <input type="number" placeholder="Phone Number" />
+        <input type="number" placeholder="price/Day" />
       </FormGroup>
 
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
