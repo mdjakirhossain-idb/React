@@ -114,7 +114,7 @@ const CarDetails = () => {
               </div>
             </Col>
 
-            <div className="payment text-end mt-5">
+            <div className="">
             <button>Reserve Now</button>
             </div>
 
