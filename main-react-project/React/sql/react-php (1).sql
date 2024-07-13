@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 10, 2024 at 11:52 AM
+-- Generation Time: Jul 13, 2024 at 02:27 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -24,6 +24,28 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `booking`
+--
+
+CREATE TABLE `booking` (
+  `id` int(10) NOT NULL,
+  `name` varchar(25) NOT NULL,
+  `contact` int(11) NOT NULL,
+  `email` varchar(25) NOT NULL,
+  `car_model` varchar(25) NOT NULL,
+  `price` int(10) NOT NULL,
+  `from_address` varchar(25) NOT NULL,
+  `to_address` varchar(25) NOT NULL,
+  `person` varchar(25) NOT NULL,
+  `luggage` varchar(25) NOT NULL,
+  `date` date NOT NULL,
+  `time` time(6) NOT NULL,
+  `details` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `items`
 --
 
@@ -39,11 +61,7 @@ CREATE TABLE `items` (
 --
 
 INSERT INTO `items` (`id`, `name`, `photo`, `details`) VALUES
-(3, 'fdg', 'usestate-4.png', 'cfdfgdfhd'),
-(4, 'cbdf', 'define-2.png', 'vnff'),
-(6, 'jakir', '0540000023731.webp', 'ddd'),
-(8, 'Jakir 1', 'Jakir Picture.jpg', 'Dejj'),
-(9, 'shakil', '1-change1.jpg', 'mirpur');
+(11, 'md jakir', 'programmer-4709802_1280.jpg', 'abc');
 
 -- --------------------------------------------------------
 
@@ -78,6 +96,12 @@ INSERT INTO `users` (`id`, `name`, `email`, `phone`) VALUES
 --
 
 --
+-- Indexes for table `booking`
+--
+ALTER TABLE `booking`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `items`
 --
 ALTER TABLE `items`
@@ -97,7 +121,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `items`
 --
 ALTER TABLE `items`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `users`
