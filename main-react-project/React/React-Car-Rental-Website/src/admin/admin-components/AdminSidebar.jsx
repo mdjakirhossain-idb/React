@@ -16,7 +16,7 @@ export const AdminSidebar = () => {
                     <Link to="/add-driver"><i className="fa fa-toggle-on" />Add Driver</Link>
                   </li>
                   <li>
-                    <Link to="/list-driver"><i className="fa fa-bell " />Manage Driver</Link>
+                    <Link to="/list-driver"><i className="fa fa-bell " />Driver List</Link>
                   </li>
 
                 </ul>
@@ -26,6 +26,10 @@ export const AdminSidebar = () => {
               <li>
                 <a href="#"><i className="fa fa-product-hunt " />Booking <span className="fa arrow" /></a>
                 <ul className="nav nav-second-level">
+
+                <li>
+                    <a href="#"><i className="fa fa-circle-o " />Add Booking </a>
+                  </li>
 
                   <li>
                     <a href="progress.html"><i className="fa fa-circle-o " />Booking list</a>
@@ -37,47 +41,29 @@ export const AdminSidebar = () => {
 
 
               <li>
-                <a href="#"><i className="fa fa-product-hunt " />Product Cetagory <span className="fa arrow" /></a>
+                <a href="#"><i className="fa fa-product-hunt " />Cars<span className="fa arrow" /></a>
                 <ul className="nav nav-second-level">
                   <li>
-                    <a href="panel-tabs.html"><i className="fa fa-toggle-on" />Add Cetarogy</a>
+                    <a href="panel-tabs.html"><i className="fa fa-toggle-on" />Add Car</a>
                   </li>
                   <li>
-                    <a href="notification.html"><i className="fa fa-bell " />Add Subcetagory</a>
+                    <a href="notification.html"><i className="fa fa-bell " />Car List</a>
                   </li>
                 </ul>
               </li>
 
-              <li>
-                <a href="#"><i className="fa fa-yelp " />Shopping order<span className="fa arrow" /></a>
-                <ul className="nav nav-second-level">
-                  <li>
-                    <a href="invoice.html"><i className="fa fa-coffee" />Shopping order list</a>
-                  </li>
-                </ul>
-              </li>
-
-
-              <li>
-                <a href="#"><i className="fa fa-yelp " /> Add Sellor<span className="fa arrow" /></a>
-                <ul className="nav nav-second-level">
-                  <li>
-                    <a href="invoice.html"><i className="fa fa-coffee" />manage Sellor</a>
-                  </li>
-                </ul>
-              </li>
-
+             
               <li>
                 <a href="#"><i className="fa fa-yelp " />Report<span className="fa arrow" /></a>
                 <ul className="nav nav-second-level">
                   <li>
-                    <a href="invoice.html"><i className="fa fa-coffee" />Customer Details</a>
+                    <a href="invoice.html"><i className="fa fa-coffee" />Cars Details</a>
                   </li>
                   <li>
-                    <a href="invoice.html"><i className="fa fa-coffee" />Sales report</a>
+                    <a href="invoice.html"><i className="fa fa-coffee" />Driver Details</a>
                   </li>
                   <li>
-                    <a href="invoice.html"><i className="fa fa-coffee" />stock report</a>
+                    <a href="invoice.html"><i className="fa fa-coffee" /> Payment report</a>
                   </li>
                   <li>
                     <a href="invoice.html"><i className="fa fa-coffee" />Transaction report</a>
@@ -86,23 +72,14 @@ export const AdminSidebar = () => {
               </li>
 
               <li>
-                <a href="#"><i className="fa fa-yelp " /> Delivery <span className="fa arrow" /></a>
+                <a href="#"><i className="fa fa-yelp " /> Customer <span className="fa arrow" /></a>
                 <ul className="nav nav-second-level">
                   <li>
-                    <a href="invoice.html"><i className="fa fa-coffee" />manage Delivery</a>
+                    <a href="invoice.html"><i className="fa fa-coffee" />Customer Details</a>
                   </li>
                 </ul>
               </li>
 
-              <li>
-                <a href="#"><i className="fa fa-yelp " /> Payment<span className="fa arrow" /></a>
-                <ul className="nav nav-second-level">
-                  <li>
-                    <a href="invoice.html"><i className="fa fa-coffee" />payment History</a>
-                  </li>
-
-                </ul>
-              </li>
 
               <li>
                 <a href="#"><i className="fa fa-sitemap " />Users<span className="fa arrow" /></a>
